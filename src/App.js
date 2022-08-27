@@ -1,7 +1,18 @@
+import SelectVariants from "./components/dropdown";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          margin: 80,
+        }}
+      >
+        <SelectVariants />
+      </div>
     </div>
   );
 }
